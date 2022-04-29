@@ -1,0 +1,129 @@
+
+header{
+    height:80vh;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    background: linear-gradient(90deg, #070707f7 50%, transparent 75%);
+    padding: 0 35px;
+    
+}
+
+ .movieTitle{
+    font-size: 60px;
+    color: #fff;
+}
+
+
+.btn{
+    padding: 15px 35px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.7s ease;
+    -webkit-transition:0.7s ease;
+}
+
+
+
+.btn:nth-child(2){
+    background-color: #000;
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+
+.movieDesc{
+    width: 80%;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 45px;
+    font-weight: 800 ;
+}
+
+
+/* responsive desgin  */
+
+
+@media screen and (max-width: 767px) {
+
+    .movieTitle{
+        font-size:  45px;
+    }
+    .btn{
+        padding: 10px 10px;
+        font-size: 20px ;
+    }
+    .movieDesc{
+        width: 60%;
+        font-size: 20px ;
+    }
+
+    .banner{
+        width: 149%;
+       
+    }
+
+    .icons{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    
+    .movieTitle{
+        font-size: 30px;
+    }
+    .btn{
+        padding: 20px 20px ;
+        font-size: 17px!important;
+    }
+    .movieDesc{
+        width: 65%;
+        font-size: 20px ;
+    }
+
+    .banner{
+        width: 149%;
+       
+    }
+
+
+}
+
+
+@media screen and (max-width: 370px) {
+  
+    .movieTitle{
+        font-size: 40px!important;
+    }
+    .btn{
+        padding: 30px 10px;
+        font-size: 27px !important;
+    }
+    .movieDesc{
+        width: 100%;
+        font-size: 20px ;
+    }
+
+    .banner{
+        width: 100%;
+       
+    }
+}

@@ -1,0 +1,130 @@
+
+.filmsCategory{
+    padding: 15px;
+    
+}
+.filmsCategory h3{
+    color: #fff;
+
+}
+.films{
+  
+    padding: 10px 0px;
+    
+}
+.film{
+    width: 30%;
+    object-fit: cover;
+    max-height: 440px;
+    margin: 10px 25px;
+    cursor: pointer;
+    
+}
+.filmPosterLarge{
+    max-height: 350px;
+    
+}
+
+
+
+
+
+/* resposnive design */
+
+
+@media screen and (max-width: 767px) {
+    *{
+        overflow-x: hidden;
+    }
+    .main{
+        background: linear-gradient(90deg, #070707eb 47%, transparent 85%);
+        padding: 0 18px;
+    }
+   
+    .filmsCategory{
+        padding: 20px 15px;
+        overflow-x: scroll;
+    }
+    .films{
+        padding:10px;
+        display:flex;
+        width:300%;
+    }
+   
+    .film{
+    height:350px;
+    margin: 0 5px;
+    object-fit: cover;
+    cursor: pointer;
+
+       
+    }
+   
+}
+@media screen and (max-width: 470px) {
+   
+    .main{
+        background: linear-gradient(90deg, #070707eb 47%, transparent 85%);
+        padding: 0 18px;
+    }
+   
+    .filmsCategory{
+        padding: 20px 15px;
+        overflow-x: scroll;
+    }
+    .films{
+        padding:0px;
+        display:flex;
+        width:400%;
+    }
+   
+    .film{
+    height:350px;
+    margin: 0 5px;
+    object-fit: cover;
+    cursor: pointer;
+
+       
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    .main{
+        background: linear-gradient(90deg, #070707eb 47%, transparent 85%);
+        padding: 0 18px;
+    }
+   
+    .btn{
+        padding: 15px 30px!important;
+        font-size: 15px!important;
+    }
+   
+
+    .filmsCategory{
+        padding: 20px 5px;
+        overflow-x: scroll;
+    }
+    .films{
+        display: flex;
+        padding: 0px;
+        margin: 10px 5px;
+      
+    }
+
+   
+    .film{
+    width:300px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+       
+    }
+
+
+    .ReactPlayer{
+        width:100%
+    }
+  
+
+}

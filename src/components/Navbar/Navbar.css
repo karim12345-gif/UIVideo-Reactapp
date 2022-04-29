@@ -1,0 +1,157 @@
+.navbar{
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.fixedNav{
+    z-index: 999;
+    background-color: #000000e3;
+    backdrop-filter: blur(10px);
+}
+
+.icons{
+
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: -70px; 
+    margin-left: -200px;
+    padding: 10px;
+    font-size: large;
+}
+
+.icons:hover{
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+
+
+.span{
+    font-size: medium;
+
+}
+
+
+
+.title{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 50px;
+
+}
+
+
+.title:hover{
+    opacity: 0.8;
+    color:whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.authButton{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+.authButton > .userImage{
+    width: 50px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.userImage:hover{
+    opacity: 0.8;
+ 
+}
+
+
+.search {
+    width: 20%;
+    color: white;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px 200px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+
+}
+
+
+
+/* responsive styling */
+
+
+@media screen and (max-width: 767px) {
+    .search{
+        width: 30%;
+        margin: 10px;
+
+    }
+
+    .icons{
+        display: none;
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 470px) {
+  
+
+    .search{
+        width: 30%;
+        margin: 10px;
+
+    }
+
+    .icons{
+        display: none;
+    }
+
+
+    .title:hover{
+        opacity: 0.8;
+        color: whitesmoke;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    .main{
+        background: linear-gradient(90deg, #070707eb 50%, transparent 85%);
+        padding: 0 18px;
+    }
+    .navbar{
+        padding: 0 17px;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .icons{
+        display: none;
+    }
+}
+
+

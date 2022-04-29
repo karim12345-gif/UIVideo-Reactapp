@@ -1,0 +1,22 @@
+.login{
+    text-align: center;
+    padding-top: 150px;
+}
+.login img{
+    width: 400px;
+}
+.login .loginBtn{
+    background-color: #fff;
+    color: black;
+    padding: 20px 55px;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor:pointer
+}
+.loginBtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

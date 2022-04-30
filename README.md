@@ -7,7 +7,7 @@ This project was written using React.js for the front-end, you can run the follo
 ### `Clone the project`
 You can clone the project using this line, and then install the dependencies from the next step.
 ```
-git clone 
+git clone https://github.com/karim12345-gif/UIVideo-Reactapp.git
 ```
 
 ### `npm install`

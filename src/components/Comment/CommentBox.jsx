@@ -15,10 +15,10 @@ class CommentBox extends React.Component  {
     render () {
       const comments = this._getComments();
       let commentNodes;
-      let buttonText = 'Show Comments';
+      let buttonText = 'On';
       
       if (this.state.showComments) {
-        buttonText = 'Hide Comments';
+        buttonText = 'Off';
         commentNodes = <div className="comment-list">{comments}</div>;
       }
       
@@ -52,7 +52,8 @@ class CommentBox extends React.Component  {
         showComments: !this.state.showComments
       });
     }
-    
+
+     // getting the comments inputted by user 
     _getComments() {    
       return this.state.comments.map((comment) => { 
         return (
@@ -63,7 +64,8 @@ class CommentBox extends React.Component  {
         ); 
       });
     }
-    
+
+    // getting the title of the comment 
     _getCommentsTitle(commentCount) {
       if (commentCount === 0) {
         return 'No comments yet';

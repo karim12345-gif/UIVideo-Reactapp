@@ -44,4 +44,30 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 
 
+####  Front-end Design:
+
+> The sig in page using firebase and google to authenticate the user.
+![Getting started](src/components/assets/sigin%20image.png)
+
+> Google authentication 
+![Getting started](src/components/assets/google%20image.png)
+
+
+> Home page design with the navbar
+![Getting started](src/components/assets/home%20image.png)
+
+
+>List of movies that has the trailers 
+![Getting started](src/components/assets/list%20image.png)
+
+>The movie's trailer
+![Getting started](src/components/assets/trailer%20image.png)
+
+
+>comment section as well 
+![Getting started](src/components/assets/comment%20image.png)
+
+
+
+
 

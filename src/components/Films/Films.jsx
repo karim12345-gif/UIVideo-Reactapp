@@ -19,7 +19,7 @@ const Films = ({ title, movie_request, isLargeRow }) => {
   useEffect(() => {
     const fetchData = async () => {
       const responseData = await axios.get(movie_request);
-      setMovies(responseData.data.results.slice(0, 9));
+      setMovies(responseData.data.results.slice(0, 4));
     };
     fetchData();
   }, [movie_request]);
@@ -52,7 +52,7 @@ const Films = ({ title, movie_request, isLargeRow }) => {
       <h3>{title}</h3>
       {/* this is going to fetch the api id of the movie and play the movie trailer  */}
       <div className="films">
-        +
+        
         {movies.map((movie) => (
           <Tooltip
             title={movie?.original_name || movie?.original_title}

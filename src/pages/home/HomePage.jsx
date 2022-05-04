@@ -34,12 +34,6 @@ const HomePage = ({ user }) => {
         movie_request={MovieGenresKeys.fetchActionMovies}
       />
 
-      {/* Documentaries  */}
-      <Films
-        title={"Documentaries"}
-        movie_request={MovieGenresKeys.fetchDocumentaries}
-      />
-
       {/* horror  */}
       <Films
         title={"Horror"}
